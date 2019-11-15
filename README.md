@@ -15,4 +15,4 @@ npm run dev
 
 ```
 
-## This project is copied from [!react-file-uploader](https://github.com/bradtraversy/react_file_uploader) and modified to add upload progress
+## This project is copied from [react-file-uploader](https://github.com/bradtraversy/react_file_uploader) and modified to add upload progress
