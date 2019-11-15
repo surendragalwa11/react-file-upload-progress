@@ -1,6 +1,6 @@
 # React File Upload
 
-> This is a full stack React-Express file uploader but could easily be modified to work with any back-end including cloud storage
+> This is a full stack React-Express-Node.js file uploader with file upload progress.
 
 ## Quick Start
 
@@ -12,4 +12,7 @@ npm install
 
 # Serve on localhost:3000
 npm run dev
+
 ```
+
+# This project is copied from (react-file-uploader)[https://github.com/bradtraversy/react_file_uploader] and modified to add upload progress
