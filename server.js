@@ -33,7 +33,12 @@ app.post('/upload', (req, res) => {
   }
 
   // read file size from req.file and replace in length below
-  const progressObj = progress({length: 773290063});
+  const singleFileSize = req.headers["content-length"];
+  
+  // NOTE:- for multi file upload,read each file size from file object and iterate over files
+
+
+  const progressObj = progress({length: singleFileSize});
 
   // path to store uploaded file
   progressObj.destination = '/Users/surendragalwa/Documents/Learning/NodeJs/react_file_uploader/client/uploads';
